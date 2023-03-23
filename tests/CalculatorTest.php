@@ -10,6 +10,7 @@ Class CalculatorTest extends TestCase{
         $this->assertEquals(1,$F->Factorial(0)); 
         $this->assertEquals(1,$F->Factorial(1)); 
         $this->assertEquals(120,$F->Factorial(5)); 
+        $this->assertEquals($F->Factorial(5)*6,$F->Factorial(6));
         $this->assertEquals(null,$F->Factorial(-3)); 
         $this->assertEquals(null,$F->Factorial(1.5)); 
         $this->assertEquals(null,$F->Factorial(false));

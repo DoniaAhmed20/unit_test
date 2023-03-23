@@ -6,9 +6,9 @@ class UserTest extends TestCase
 {
     public function testUser(){
         
-        $U = new User("Donia" , "donia3012@gmail.com"); 
-        $this->assertEquals('Donia',$U->username('Donia'));  
-        $this->assertEquals('donia3012@gmail.com',$U->Email('donia3012@gmail.com'));
+        $U = new User("Samy" , "samy@gmail.com"); 
+        $this->assertEquals('Samy',$U->username('Samy'));  
+        $this->assertEquals('samy@gmail.com',$U->Email('samy@gmail.com'));
     } 
 }
 
